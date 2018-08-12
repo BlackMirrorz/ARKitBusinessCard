@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14306.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uhu-LO-ZqP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14278.2"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="yNM-bU-DLT">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="uhu-LO-ZqP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="jbh-D1-Kjw">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="relationship" relationship="rootViewController" id="mf6-mX-7gX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Sf-HE-Rp9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-788" y="-5"/>
+        </scene>
+        <!--AR Business Card-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ARBusinessCard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aaj-z1-sKX">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Aaj-z1-sKX" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" id="7VV-cV-tqI"/>
+                            <constraint firstItem="Aaj-z1-sKX" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="Ntz-eD-eMN"/>
+                            <constraint firstItem="Aaj-z1-sKX" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="RtV-yf-vqZ"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="Aaj-z1-sKX" secondAttribute="bottom" id="bPl-57-twI"/>
+                            <constraint firstItem="Aaj-z1-sKX" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="fgX-jI-upB"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="Aaj-z1-sKX" secondAttribute="trailing" id="kE4-u7-Wx4"/>
+                            <constraint firstItem="Aaj-z1-sKX" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="lfs-YL-MjB"/>
+                            <constraint firstItem="Aaj-z1-sKX" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" id="tfm-ZY-cnN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="AR Business Card" id="cUB-ut-oti">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="XjF-uQ-6IP">
+                            <connections>
+                                <segue destination="alq-iG-vVg" kind="presentation" identifier="webViewer" id="7KV-Qm-xyb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="augmentedRealityView" destination="Aaj-z1-sKX" id="12g-Hh-MgO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
+        </scene>
+        <!--Side Menu Navigation Controller-->
+        <scene sceneID="x1a-Xp-ipW">
+            <objects>
+                <navigationController id="alq-iG-vVg" customClass="UISideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Dr-7z-lHd">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftSide" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="kxJ-Ix-kMT" kind="relationship" relationship="rootViewController" id="4pQ-L3-4Bk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HBX-aN-ghL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="825" y="28"/>
+        </scene>
+        <!--Map Web View Controller-->
+        <scene sceneID="c4b-lK-02N">
+            <objects>
+                <viewController id="kxJ-Ix-kMT" customClass="MapWebViewController" customModule="ARBusinessCard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FAQ-iy-g7J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="RvU-O0-cbz"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yXg-5k-uCw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="duq-wN-5yo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610" y="27"/>
+        </scene>
+    </scenes>
+</document>

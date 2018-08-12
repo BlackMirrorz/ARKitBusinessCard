@@ -1,0 +1,6 @@
+framework module Pods_ARBusinessCard {
+  umbrella header "Pods-ARBusinessCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

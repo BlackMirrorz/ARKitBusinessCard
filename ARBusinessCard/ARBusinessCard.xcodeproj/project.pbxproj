@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF426AEE211D8C0B00B4FD64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF426AED211D8C0B00B4FD64 /* AppDelegate.swift */; };
+		AF426AF0211D8C0B00B4FD64 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AF426AEF211D8C0B00B4FD64 /* art.scnassets */; };
+		AF426AF2211D8C0B00B4FD64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF426AF1211D8C0B00B4FD64 /* ViewController.swift */; };
+		AF426AF5211D8C0B00B4FD64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF426AF3211D8C0B00B4FD64 /* Main.storyboard */; };
+		AF426AFA211D8C0C00B4FD64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF426AF8211D8C0C00B4FD64 /* LaunchScreen.storyboard */; };
+		AF426B02211D8C1C00B4FD64 /* BusinessCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF426B01211D8C1C00B4FD64 /* BusinessCard.swift */; };
+		AF507E7F211FB5E200A988B9 /* ViewController+Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF507E7E211FB5E200A988B9 /* ViewController+Interaction.swift */; };
+		AF8387A0211FC66B0050C20A /* Skia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF83879E211FC6500050C20A /* Skia.ttf */; };
+		AF8387A3211FCCD10050C20A /* MapWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8387A2211FCCD10050C20A /* MapWebViewController.swift */; };
+		AF868897211EFF7A002F3F47 /* ViewController+Delegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF868896211EFF7A002F3F47 /* ViewController+Delegation.swift */; };
+		AFD83A3A211DA58800A5E8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD83A39211DA58800A5E8E1 /* Assets.xcassets */; };
+		AFD9D8D3211EADED001C6999 /* BusinessCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9D8D2211EADED001C6999 /* BusinessCardData.swift */; };
+		AFFD2A852120266E00CA7BD8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD2A842120266E00CA7BD8 /* MapView.swift */; };
+		BDF9CE1530EC8275467943DB /* Pods_ARBusinessCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA091FB2B02AE21DBF05F3F /* Pods_ARBusinessCard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8306F504FB87B51BBDB0B953 /* Pods-ARBusinessCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBusinessCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARBusinessCard/Pods-ARBusinessCard.debug.xcconfig"; sourceTree = "<group>"; };
+		8EA091FB2B02AE21DBF05F3F /* Pods_ARBusinessCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARBusinessCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		969529CF0EA34A0F9B95A8AE /* Pods-ARBusinessCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBusinessCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARBusinessCard/Pods-ARBusinessCard.release.xcconfig"; sourceTree = "<group>"; };
+		AF426AEA211D8C0B00B4FD64 /* ARBusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF426AED211D8C0B00B4FD64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF426AEF211D8C0B00B4FD64 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AF426AF1211D8C0B00B4FD64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF426AF4211D8C0B00B4FD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF426AF9211D8C0C00B4FD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF426AFB211D8C0C00B4FD64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF426B01211D8C1C00B4FD64 /* BusinessCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCard.swift; sourceTree = "<group>"; };
+		AF507E7E211FB5E200A988B9 /* ViewController+Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Interaction.swift"; sourceTree = "<group>"; };
+		AF83879E211FC6500050C20A /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skia.ttf; sourceTree = "<group>"; };
+		AF8387A2211FCCD10050C20A /* MapWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWebViewController.swift; sourceTree = "<group>"; };
+		AF868896211EFF7A002F3F47 /* ViewController+Delegation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Delegation.swift"; sourceTree = "<group>"; };
+		AFD83A39211DA58800A5E8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD9D8D2211EADED001C6999 /* BusinessCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardData.swift; sourceTree = "<group>"; };
+		AFFD2A842120266E00CA7BD8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF426AE7211D8C0B00B4FD64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF9CE1530EC8275467943DB /* Pods_ARBusinessCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF426AE1211D8C0B00B4FD64 = {
+			isa = PBXGroup;
+			children = (
+				AF426AEC211D8C0B00B4FD64 /* ARBusinessCard */,
+				AF426AEB211D8C0B00B4FD64 /* Products */,
+				D101D52FAE9BA1623FCEF8B1 /* Pods */,
+				B06CDA3A4BFEDEF55C97ACFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF426AEB211D8C0B00B4FD64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF426AEA211D8C0B00B4FD64 /* ARBusinessCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF426AEC211D8C0B00B4FD64 /* ARBusinessCard */ = {
+			isa = PBXGroup;
+			children = (
+				AF426AED211D8C0B00B4FD64 /* AppDelegate.swift */,
+				AF507E80211FB61200A988B9 /* Business Card */,
+				AF507E81211FB62400A988B9 /* View Controllers */,
+				AF426AF3211D8C0B00B4FD64 /* Main.storyboard */,
+				AF426AF8211D8C0C00B4FD64 /* LaunchScreen.storyboard */,
+				AF83879D211FC6460050C20A /* Fonts */,
+				AF426AEF211D8C0B00B4FD64 /* art.scnassets */,
+				AFD83A39211DA58800A5E8E1 /* Assets.xcassets */,
+				AF426AFB211D8C0C00B4FD64 /* Info.plist */,
+			);
+			path = ARBusinessCard;
+			sourceTree = "<group>";
+		};
+		AF507E80211FB61200A988B9 /* Business Card */ = {
+			isa = PBXGroup;
+			children = (
+				AF426B01211D8C1C00B4FD64 /* BusinessCard.swift */,
+				AFD9D8D2211EADED001C6999 /* BusinessCardData.swift */,
+			);
+			path = "Business Card";
+			sourceTree = "<group>";
+		};
+		AF507E81211FB62400A988B9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF8387A1211FCCBA0050C20A /* WebView & Maps */,
+				AF426AF1211D8C0B00B4FD64 /* ViewController.swift */,
+				AF507E7E211FB5E200A988B9 /* ViewController+Interaction.swift */,
+				AF868896211EFF7A002F3F47 /* ViewController+Delegation.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AF83879D211FC6460050C20A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF83879E211FC6500050C20A /* Skia.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AF8387A1211FCCBA0050C20A /* WebView & Maps */ = {
+			isa = PBXGroup;
+			children = (
+				AF8387A2211FCCD10050C20A /* MapWebViewController.swift */,
+				AFFD2A842120266E00CA7BD8 /* MapView.swift */,
+			);
+			path = "WebView & Maps";
+			sourceTree = "<group>";
+		};
+		B06CDA3A4BFEDEF55C97ACFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EA091FB2B02AE21DBF05F3F /* Pods_ARBusinessCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D101D52FAE9BA1623FCEF8B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8306F504FB87B51BBDB0B953 /* Pods-ARBusinessCard.debug.xcconfig */,
+				969529CF0EA34A0F9B95A8AE /* Pods-ARBusinessCard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF426AE9211D8C0B00B4FD64 /* ARBusinessCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF426AFE211D8C0C00B4FD64 /* Build configuration list for PBXNativeTarget "ARBusinessCard" */;
+			buildPhases = (
+				4176DB36C2144B7CF9A87C30 /* [CP] Check Pods Manifest.lock */,
+				AF426AE6211D8C0B00B4FD64 /* Sources */,
+				AF426AE7211D8C0B00B4FD64 /* Frameworks */,
+				AF426AE8211D8C0B00B4FD64 /* Resources */,
+				08434AB24952970E36AE3385 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARBusinessCard;
+			productName = ARBusinessCard;
+			productReference = AF426AEA211D8C0B00B4FD64 /* ARBusinessCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF426AE2211D8C0B00B4FD64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = BlackMirrorz;
+				TargetAttributes = {
+					AF426AE9211D8C0B00B4FD64 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = AF426AE5211D8C0B00B4FD64 /* Build configuration list for PBXProject "ARBusinessCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF426AE1211D8C0B00B4FD64;
+			productRefGroup = AF426AEB211D8C0B00B4FD64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF426AE9211D8C0B00B4FD64 /* ARBusinessCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF426AE8211D8C0B00B4FD64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF426AF0211D8C0B00B4FD64 /* art.scnassets in Resources */,
+				AF8387A0211FC66B0050C20A /* Skia.ttf in Resources */,
+				AF426AFA211D8C0C00B4FD64 /* LaunchScreen.storyboard in Resources */,
+				AFD83A3A211DA58800A5E8E1 /* Assets.xcassets in Resources */,
+				AF426AF5211D8C0B00B4FD64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08434AB24952970E36AE3385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARBusinessCard/Pods-ARBusinessCard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARBusinessCard/Pods-ARBusinessCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4176DB36C2144B7CF9A87C30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARBusinessCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF426AE6211D8C0B00B4FD64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF426AF2211D8C0B00B4FD64 /* ViewController.swift in Sources */,
+				AFFD2A852120266E00CA7BD8 /* MapView.swift in Sources */,
+				AF426B02211D8C1C00B4FD64 /* BusinessCard.swift in Sources */,
+				AF426AEE211D8C0B00B4FD64 /* AppDelegate.swift in Sources */,
+				AF868897211EFF7A002F3F47 /* ViewController+Delegation.swift in Sources */,
+				AFD9D8D3211EADED001C6999 /* BusinessCardData.swift in Sources */,
+				AF507E7F211FB5E200A988B9 /* ViewController+Interaction.swift in Sources */,
+				AF8387A3211FCCD10050C20A /* MapWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF426AF3211D8C0B00B4FD64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF426AF4211D8C0B00B4FD64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF426AF8211D8C0C00B4FD64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF426AF9211D8C0C00B4FD64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF426AFC211D8C0C00B4FD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF426AFD211D8C0C00B4FD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF426AFF211D8C0C00B4FD64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8306F504FB87B51BBDB0B953 /* Pods-ARBusinessCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY5Y5N88U4;
+				INFOPLIST_FILE = ARBusinessCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.blackmirrorz.ARBusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AF426B00211D8C0C00B4FD64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969529CF0EA34A0F9B95A8AE /* Pods-ARBusinessCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY5Y5N88U4;
+				INFOPLIST_FILE = ARBusinessCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.blackmirrorz.ARBusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF426AE5211D8C0B00B4FD64 /* Build configuration list for PBXProject "ARBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF426AFC211D8C0C00B4FD64 /* Debug */,
+				AF426AFD211D8C0C00B4FD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF426AFE211D8C0C00B4FD64 /* Build configuration list for PBXNativeTarget "ARBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF426AFF211D8C0C00B4FD64 /* Debug */,
+				AF426B00211D8C0C00B4FD64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF426AE2211D8C0B00B4FD64 /* Project object */;
+}
