@@ -9,7 +9,6 @@ The app uses `ARImageTrackingConfiguration` to detect the business card and then
 All the code is fully commented so it should be very easy to follow.
 
 **Using The Temoplates:**
-
 In the templates folder of this repository there are 2 files:
 
  1. businessCardPrint.png
@@ -26,6 +25,14 @@ The semi transparent area is the actual size of our business card (imageTarget) 
 ![Business Card Template](https://www.blackmirrorz.tech/images/BlackMirrorz/ARBusinessCardScreenShots/businessCardLayout.png)
 
 The use of a template makes the creation of interactive business cards simple, without the need for manually calculating the position of interactive buttons, and labels etc.  And means that you can easily configure the app to detect as many different business cards as you need.
+
+There are 2 Templates:
+
+ 1. `BusinessCardTemplateA` (which doesn't show the users image),
+ 2. `BusinessCardTemplateB` (which shows the users image).
+
+If you are using the 1st template you must currently provide an image, which for the sake of simplicity; add an image of the cardholder to the `Assetts` folder and name it like so:
+firstname+surname e.g. JoshRobbins.png
 
 The `BusinessCardData Struct` formats all the data needed for each element of the business card to work:
 
@@ -58,6 +65,21 @@ The `BusinessCardData Struct` formats all the data needed for each element of th
         case StackOverFlow
         case GitHub
     }
+
+A BusinessCard is initialised like so:
+
+    /// Creates The Business Card
+    ///
+    /// - **Parameters**:
+    /// - data: BusinessCardData
+    /// - cardType: CardTemplate
+    init(data: BusinessCardData, cardType: CardTemplate) {
+    }
+
+The `data` argument takes the data needed to populate the template and the `cardType` takes either of the following values:
+
+    case noProfileImage
+    case standard
 
 As such generating a `BusinessCard` (which is an `SCNNode` subclass) is as simple as this:
 
