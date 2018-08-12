@@ -67,7 +67,7 @@ The `BusinessCardData Struct` formats all the data needed for each element of th
         case GitHub
     }
 
-A BusinessCard is initialised like so:
+A `BusinessCard` is initialised like so:
 
     /// Creates The Business Card
     ///
@@ -77,7 +77,7 @@ A BusinessCard is initialised like so:
     init(data: BusinessCardData, cardType: CardTemplate) {
     }
 
-The `data` argument takes the data needed to populate the template and the `cardType` takes either of the following values:
+Whereby the `data` argument takes the data needed to populate the template and the `cardType` takes either of the following values:
 
     case noProfileImage
     case standard
