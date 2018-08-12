@@ -82,7 +82,7 @@ class ViewController: UIViewController {
                                                                          city: "Cupertino", state: "CA", postalCode: "95015",
                                                                          coordinates: (latittude: 37.3349, longtitude: -122.0090201)),
                                                 website: SocialLinkData(link: "https://www.blackmirrorz.tech", type: .Website),
-                                                phoneNumber: "+821049550384",
+                                                phoneNumber: "+821076337633",
                                                 email: "josh.robbins@blackmirroz.tech",
                                                 stackOverflowAccount: SocialLinkData(link: "https://stackoverflow.com/users/8816868/josh-robbins", type: .StackOverFlow),
                                                 githubAccount: SocialLinkData(link: "https://github.com/BlackMirrorz", type: .GitHub))
