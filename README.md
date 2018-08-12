@@ -90,14 +90,16 @@ When the business card is detected, the Firstname and Surname of the card holder
 **Interactive Elements:**
 
 Each button performs a different function:
-![ARKit Business Card Icons](https://www.blackmirrorz.tech/images/BlackMirrorz/ARBusinessCardScreenShots/icons.png )The `StackOverFlow Button` presents a slide out `WKWebView` to display the users `StackOverFlow` Account.
-The `GitHub Button` presents a slide out `WKWebView` to display the users `GitHub` Account.
-The `Internet Button` presents a slide out `WKWebView` to display the users website.
-The `Phone Button` allows the user to call the Business Telephone Number.
-The `SMS Button` presents an `MFMessageComposeViewController` allowing the user to send a text message to the business.
-The `Email Button` presents an `MFMailComposeViewController` allowing the user to email the business.
-The `Contact Button` creates a `CNMutableContact` and saves the business as a new contact on the users device.
-The `Location Button` presents a slide out `MKMapView` to display the users Businesses Location.
+![ARKit Business Card Icons](https://www.blackmirrorz.tech/images/BlackMirrorz/ARBusinessCardScreenShots/icons.png )
+
+ - The `StackOverFlow Button` presents a slide out `WKWebView` to display the users `StackOverFlow` Account.
+ - The `GitHub Button` presents a slide out `WKWebView` to display the users `GitHub` Account.
+ - The `Internet Button` presents a slide out `WKWebView` to display the users website.
+ - The `Phone Button` allows the user to call the Business Telephone Number.
+ - The `SMS Button` presents an `MFMessageComposeViewController` allowing the user to send a text message to the business.
+ - The `Email Button` presents an `MFMailComposeViewController` allowing the user to email the business.
+ - The `Contact Button` creates a `CNMutableContact` and saves the business as a new contact on the users device.
+ - The `Location Button` presents a slide out `MKMapView` to display the users Businesses Location.
 
 **Requirements:**
 
