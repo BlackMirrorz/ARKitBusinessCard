@@ -114,6 +114,7 @@ As such I made use of the fabulous repository `SideMenu` by `Jonkykong` which is
 [SideMenu](https://github.com/jonkykong/SideMenu)
 
 This allows the user to still experience `ARKit` whilst allowing an almost split screen like effect:
+
 ![ARKit Business Card Split Screen](https://www.blackmirrorz.tech/images/BlackMirrorz/ARBusinessCardScreenShots/slideMenu.png )
 
 **To Do:**
