@@ -1,4 +1,5 @@
 
+
 # ARKit Business Card
 
 This project is a basic example of creating a fully interactive business card in *ARKit*.
@@ -7,7 +8,19 @@ The app uses `ARImageTrackingConfiguration` to detect the business card and then
 
 All the code is fully commented so it should be very easy to follow.
 
+**Using The Temoplates:**
+In the templates folder of this repository there are 2 files:
+
+ 1. businessCardPrint.png
+ 2. businessCardTemplate.ai
+ 
+To get up and running you can print out the `businessCardPrint.png` or even display it in preview to test the apps functionality. Currently this is sized at 10cm by 5cm, although of course you can change this as you wish!
+
+The template `ai file` is provided so you can make your own business cards.
+
 The image below shows the `SCNScene Business Card` template:
+
+The semi transparent area is the actual size of our business card (imageTarget) as such you can change and organise things as you wish.
 
 ![Business Card Template](https://www.blackmirrorz.tech/images/BlackMirrorz/ARBusinessCardScreenShots/businessCardLayout.png)
 
