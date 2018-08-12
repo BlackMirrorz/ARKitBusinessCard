@@ -7,20 +7,17 @@ This project is a basic example of creating a fully interactive business card in
 
 The app uses `ARImageTrackingConfiguration` to detect the business card and then present interactive content.
 
+As with all my work,  the code is fully commented (probably way too much!) so it should be very easy to follow.
+
 **Requirements:**
 
 This project was written in Swift 4, and at the time of writing uses Xcode 10 Beta.
 The project is setup for iPhone, and in Portait Orientation.
 
 **Notes:**
-
-If you want to use this project on IOS11.4 you will need to change the ARImageTrackingConfiguration to ARWorldTrackingConfiguration and make some minor tweaks to the Configuration settings in the ViewController, all of which are very trivial.
+If you want to use this project on IOS11.4 you will need to change the `ARImageTrackingConfiguration` to `ARWorldTrackingConfiguration` and make some minor tweaks to the `Configuration` settings in the ViewController, all of which are very trivial.
 
 Some people have had some issues with SideMenu. If I remember correctly, I had to manually change a few of the names, as some have changed in later versions of Swift. Again these are all very trivial!
-
-If you have any questions please send me a message!
-
-All the code is fully commented so it should be very easy to follow.
 
 **Using The Templates:**
 
