@@ -9,6 +9,7 @@ The app uses `ARImageTrackingConfiguration` to detect the business card and then
 All the code is fully commented so it should be very easy to follow.
 
 **Using The Temoplates:**
+
 In the templates folder of this repository there are 2 files:
 
  1. businessCardPrint.png
