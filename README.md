@@ -11,7 +11,8 @@ As with all my work,  the code is fully commented (probably way too much!) so it
 **Branches:**
 
 The Master Branch was originally compiled in XCode10 Beta using Swift 4.
-An updated Branch called Swift4, contains the project built in XCode 10.5 Beta and uses Swift 4.2.
+
+An updated Branch called 'Swift4' contains the project built in XCode 10.5 Beta and uses Swift 4.2.
 
 **Requirements:**
 
