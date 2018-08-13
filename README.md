@@ -152,7 +152,7 @@ Each button performs a different function:
 
 **Repositories Used:**
 
-Since rendering a `WKWebView` as an `SCNMaterial`, I had to look at other ways to allow the content to be fully interactive.
+Since rendering a `WKWebView` as an `SCNMaterial` isn't possible, I had to look at other ways to allow the content to be fully interactive.
 
 As such I made use of the fabulous repository `SideMenu` by `Jonkykong` which is available here:
 [SideMenu](https://github.com/jonkykong/SideMenu)
