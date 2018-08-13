@@ -16,8 +16,6 @@ An updated Branch called 'Swift4.2' contains the project built in XCode 10.5 Bet
 
 **Requirements:**
 
-This project was written in Swift 4, and at the time of writing uses Xcode 10 Beta.
-
 The project is setup for iPhone, and in Portait Orientation.
 
 **Notes:**
